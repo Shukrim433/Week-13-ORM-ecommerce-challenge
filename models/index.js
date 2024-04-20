@@ -47,3 +47,12 @@ module.exports = {
 /***ProductTag model acts as a junction or pivot table that facilitates this many-to-many relationship. It contains foreign keys that reference
 the id columns of both the Product and Tag tables. This setup allows for efficient querying and management of the relationships between products 
 and tags. */
+
+
+/*  1.     1 category has many products
+           many products belong to 1 category
+*/
+
+/*  2.     a product can have many tags
+           a tag can have many products associated with it
+*/
